@@ -24,6 +24,10 @@ h4, h5 {
   background:#e6edf7;
   box-shadow: 0px 0px 5px 0px #000;
 }
+#resumocontato {
+  background:#e6edf7;
+  box-shadow: 0px 0px 5px 0px #000;
+}
 #inspiracao {
   height: 400px;
 }
@@ -32,7 +36,7 @@ h4, h5 {
   padding: 15px 0;
 }
 #homevideos {
-  height: 4300px;
+  height: 4800px;
 
 }
 #homevideos .video-players {
@@ -109,7 +113,10 @@ iframe {
     height: 100px;
   }
   #inspiracao {
-    height: 120px;
+    height: 100px;
+  }
+  #resumocontato {
+    height: 400px;
   }
 }
 
@@ -128,7 +135,10 @@ iframe {
     height: 100px;
   }
   #inspiracao {
-    height: 150px;
+    height: 120px;
+  }
+  #resumocontato {
+    height: 400px;
   }
 }
 
@@ -143,7 +153,10 @@ iframe {
   #inspiracao {
     height: 250px;
   }
-
+  #resumocontato {
+    height: 400px;
+    margin-bottom: 100px;
+  }
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -156,6 +169,10 @@ iframe {
   }
   #inspiracao {
     height: 300px;
+  }
+  #resumocontato {
+    height: 400px;
+    margin-bottom: 100px;
   }
 }
 
