@@ -1,0 +1,170 @@
+body {
+  background:
+    url(img/ruidogold.png),
+    url(img/bg-albuns5.png),
+  linear-gradient(62deg, #ffd700 0%, #f54f4f 100%);
+  background-attachment: fixed;
+}
+nav {
+  box-shadow: 0px 0px 5px 0px #FFD700;
+  font-size: 1.1em;
+}
+nav.navegbar {
+  background:linear-gradient(180deg, #000000 0%, #121212 100%);
+
+}
+html, body, #home {
+  height: 100%;
+}
+h4, h5 {
+  color: #1c363b;
+  padding: 15px 15px 0px 15px;
+}
+#resumo {
+  background:#e6edf7;
+  box-shadow: 0px 0px 5px 0px #000;
+}
+#inspiracao {
+  height: 400px;
+}
+#footer {
+  background: black;
+  padding: 15px 0;
+}
+#homevideos {
+  height: 4300px;
+
+}
+#homevideos .video-players {
+  margin-top: 50px;
+  background: rgba(0, 0, 0, 7);
+  border-radius: 8px;
+  padding: 20px 15px;
+  box-shadow: 0px 0px 5px 0px #FFD700;
+}
+#homevideos h3 {
+  padding: 30px 5px 15px 5px;
+  color: white;
+}
+#homevideos h1 {
+  font-weight: bold;
+  color: white
+}
+#quemsomos {
+  height: 450px;
+}
+footer {
+  position: relative;
+}
+footer .icone {
+  font-size: 36px;
+  padding: 5px 10px;
+  color: #F1D59A;
+}
+footer .icone:hover {
+  color: #FFD700;
+}
+footer ul.footbar a {
+  color: white;
+  font-size: 18px;
+}
+footer ul.footbar a:hover {
+  color: #FFD700;
+}
+footer ul.nav-social {
+
+}
+.texto-carousel {
+  color: #000;
+  font-size: 22px;
+  font-weight: 500;
+  background: rgba(0,0,0,0.6);
+}
+.carousel-inner {
+  box-shadow: 0px 0px 10px 0px black;
+  border-radius: 4px;
+}
+.carousel-indicators li {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+iframe {
+  box-shadow: 0px 0px 5px 0px #000;
+}
+ {
+  box-shadow: 0px 0px 5px 0px #000;
+}
+/* Tipografia */
+@media (max-width: 575.98px) {
+  h3.display-4 {
+    font-size:1.8em;
+  }
+  footer ul.footbar {
+    text-align: center;
+  }
+  #quemsomos {
+    height: 150px;
+  }
+  #contato {
+    height: 100px;
+  }
+  #inspiracao {
+    height: 120px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  h3.display-4 {
+    font-size:2.8em;
+  }
+  footer ul.footbar {
+    text-align: center;
+  }
+  #quemsomos {
+    height: 150px;
+  }
+  #contato {
+    height: 100px;
+  }
+  #inspiracao {
+    height: 150px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h3.display-4 {
+    font-size:2.2em;
+  }
+  #contato {
+    height: 100px;
+  }
+  #inspiracao {
+    height: 250px;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  h3.display-4 {
+    font-size:3em;
+  }
+  #contato {
+    height: 100px;
+  }
+  #inspiracao {
+    height: 300px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  h3.display-4 {
+    font-size:3.5em;
+  }
+  #contato {
+    height: 100px;
+  }
+}
